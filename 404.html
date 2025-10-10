@@ -1,0 +1,67 @@
+---
+layout: default
+permalink: /404.html
+---
+
+<style>
+  .error-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .error-code {
+    font-size: clamp(4rem, 10vw, 8rem);
+    font-weight: 700;
+    background: linear-gradient(135deg, #FFB800 0%, #FFD04D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+  }
+  
+  .error-message {
+    font-size: clamp(1.25rem, 3vw, 2rem);
+    color: #e0e0e0;
+    margin-bottom: 2rem;
+  }
+  
+  .error-description {
+    color: #a0a0a0;
+    margin-bottom: 3rem;
+    max-width: 500px;
+  }
+  
+  .home-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+    color: #FFB800;
+    text-decoration: none;
+    border: 2px solid #FFB800;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .home-button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(255, 184, 0, 0.3);
+    background: #FFB800;
+    color: #0a0a0a;
+  }
+</style>
+
+<section class="error-section">
+  <div class="error-code">404</div>
+  <h1 class="error-message">Page Not Found</h1>
+  <p class="error-description">
+    The page you're looking for doesn't exist or has been moved.
+  </p>
+  <a href="{{ site.baseurl }}/" class="home-button">← Back to Home</a>
+</section>
+

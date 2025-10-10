@@ -1,0 +1,52 @@
+# Personal Information
+name: 'Lukáš Pospíšil'
+tagline: 'QA Engineer'
+
+# Profile Photo
+photo: 'assets/images/profile.png'
+
+# Status
+status:
+  available: true
+  message: 'Open to opportunities'
+
+# Bio Section
+bio: |
+  QA Engineer skilled in automated and manual testing of web apps.<br>
+  Agile, reliable, and detail-oriented.<br>
+  I find bugs before your customers do.
+
+# Skills & Tech Stack
+skills:
+  testing:
+    - 'Test automation with Playwright'
+    - 'LLM evaluation and testing'
+    - 'API testing'
+    - 'Exploratory manual testing'
+    - 'Test management and bug reporting'
+
+  security:
+    - 'Web Application Security'
+    - 'Penetration testing fundamentals'
+    - 'Burp Suite, Proxyman, Metasploit'
+
+  tools:
+    - 'Microsoft Azure'
+    - 'Google Cloud Platform logs'
+    - 'Elastic'
+    - 'GitHub'
+    - 'Linux'
+
+  programming:
+    - 'Python'
+    - 'JavaScript/TypeScript'
+    - 'git for version control'
+
+# Contact Information
+contact:
+  email: 'pospisil.lukas@proton.me'
+  phone: '+420 604 908 023'
+  linkedin: 'https://linkedin.com/in/lukas-pospisil'
+  github: 'https://github.com/Lukaspspsl'
+  calendly: 'https://calendly.com/yourname'
+  location: 'Prague, CZ'

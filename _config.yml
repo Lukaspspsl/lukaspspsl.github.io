@@ -1,0 +1,26 @@
+# Site settings
+title: Lukáš Pospíšil | QA Engineer
+description: QA Engineer specializing in web app testing, test automation with Playwright, and security testing. Based in Prague, CZ.
+baseurl: ''
+url: 'https://lpspsl.github.io'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - README.md
+  - portfolio/
+
+# Plugin settings
+plugins:
+  - jekyll-seo-tag

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lukaspspsl.github.io/lpspsl/sitemap.xml
+
