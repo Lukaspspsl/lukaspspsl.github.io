@@ -19,18 +19,18 @@ bio: |
 # Skills & Tech Stack
 skills:
   testing:
-    - 'Test automation with Playwright'
-    - 'LLM evaluation and testing'
+    - 'Test automation with Playwright and AI agents'
+    - 'LLM testing and evaluation'
     - 'API testing'
     - 'Exploratory manual testing'
     - 'Test management and bug reporting'
 
   security:
-    - 'Web Application Security'
+    - 'Web Application Security - OWASP Top 10'
     - 'Penetration testing fundamentals'
-    - 'Burp Suite, Proxyman, Metasploit'
+    - 'Burp Suite, Proxyman, Wireshark, Metasploit'
 
-  tools:
+  platforms:
     - 'Microsoft Azure'
     - 'Google Cloud Platform logs'
     - 'Elastic'
