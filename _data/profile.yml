@@ -30,7 +30,7 @@ skills:
     - 'Penetration testing fundamentals'
     - 'Burp Suite, Proxyman, Wireshark, Metasploit'
 
-  platforms:
+  tools:
     - 'Microsoft Azure'
     - 'Google Cloud Platform logs'
     - 'Elastic'
