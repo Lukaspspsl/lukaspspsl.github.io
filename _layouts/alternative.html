@@ -27,7 +27,7 @@
   
   {% seo %}
   
-  <!-- Main Design CSS -->
+  <!-- Alternative Design CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/alternative.css">
   
   <!-- Preconnect for performance -->
@@ -38,20 +38,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-  
-  <main id="main-content">
-    {{ content }}
-  </main>
+  {{ content }}
   
   <!-- Toast notification for copy feedback -->
-  <div id="toast" class="toast" role="alert" aria-live="polite" aria-atomic="true"></div>
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
   
-  <!-- Main Design JS -->
-  <script>
-    // Pass Jekyll config to JavaScript
-    window.CROSSHAIR_ANIMATION_ENABLED = {{ site.crosshair_animation | default: true }};
-  </script>
+  <!-- Alternative Design JS -->
   <script src="{{ site.baseurl }}/assets/js/alternative.js"></script>
 </body>
 </html>

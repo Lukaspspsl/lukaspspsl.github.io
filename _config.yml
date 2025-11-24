@@ -24,3 +24,6 @@ exclude:
 # Plugin settings
 plugins:
   - jekyll-seo-tag
+
+# Design settings
+crosshair_animation: true # Enable/disable crosshair animation effect

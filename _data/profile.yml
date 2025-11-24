@@ -7,7 +7,7 @@ photo: 'assets/images/profile.png'
 
 # Status
 status:
-  available: true
+  available: False
   message: 'Open to opportunities'
 
 # Bio Section
@@ -28,7 +28,7 @@ skills:
   security:
     - 'Web Application Security - OWASP Top 10'
     - 'Penetration testing fundamentals'
-    - 'Burp Suite, Proxyman, Wireshark, Metasploit'
+    - 'Burp Suite, Proxyman, Wireshark'
 
   tools:
     - 'Microsoft Azure'
@@ -40,7 +40,7 @@ skills:
   programming:
     - 'Python'
     - 'JavaScript/TypeScript'
-    - 'git for version control'
+    - 'Basics of git for version control'
 
 # Contact Information
 contact:

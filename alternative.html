@@ -1,33 +1,31 @@
 ---
-layout: default
+layout: alternative
 ---
 
 {% assign profile = site.data.profile %}
 
 <!-- Skip to content link for accessibility -->
-<a href="#main-content" class="skip-link">Skip to main content</a>
+<a href="#bio" class="skip-link">Skip to main content</a>
 
 <!-- Hero Section -->
-<section id="hero" class="hero-section" onclick="scrollToContent()" role="banner" aria-label="Hero section">
+<section id="hero" class="hero-section" onclick="scrollToContent()">
   <div class="hero-content">
     <div class="profile-photo-container">
       <img src="{{ site.baseurl }}/{{ profile.photo }}" 
-           alt="{{ profile.name }}, {{ profile.tagline }}" 
+           alt="{{ profile.name }} - {{ profile.tagline }}" 
            class="profile-photo"
-           loading="eager"
-           width="200"
-           height="200">
+           loading="eager">
     </div>
     <h1 class="name">{{ profile.name }}</h1>
     <p class="tagline">{{ profile.tagline }}</p>
   </div>
-  <div class="scroll-indicator" aria-hidden="true">↓</div>
+  <div class="scroll-indicator">↓</div>
 </section>
 
 <!-- Bio Section -->
-<section id="bio" class="bio-section scroll-reveal" aria-labelledby="bio-heading">
+<section id="bio" class="bio-section scroll-reveal">
   <div class="container">
-    <h2 id="bio-heading" class="section-title">About Me</h2>
+    <h2 class="section-title">About Me</h2>
     <div class="location-info">
       <svg class="location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -45,10 +43,10 @@ layout: default
 </section>
 
 <!-- Contact Section -->
-<section id="contact" class="contact-section scroll-reveal" aria-labelledby="contact-heading">
+<section id="contact" class="contact-section scroll-reveal">
   <div class="container">
     <div class="contact-header">
-      <h2 id="contact-heading" class="section-title">Get In Touch</h2>
+      <h2 class="section-title">Get In Touch</h2>
       {% if profile.status.available %}
       <div class="status-badge">
         <span class="status-indicator"></span>
@@ -91,9 +89,9 @@ layout: default
 </section>
 
 <!-- Skills Section -->
-<section id="skills" class="skills-section scroll-reveal" aria-labelledby="skills-heading">
+<section id="skills" class="skills-section scroll-reveal">
   <div class="container">
-    <h2 id="skills-heading" class="section-title">Skills & Tech Stack</h2>
+    <h2 class="section-title">Skills & Tech Stack</h2>
     <div class="skills-list">
       <div class="skills-column">
         <h3 class="skill-category">Testing & QA</h3>

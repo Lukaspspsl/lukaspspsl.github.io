@@ -27,32 +27,22 @@
   
   {% seo %}
   
-  <!-- Main Design CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/alternative.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
-  <!-- Fira Code Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-  
-  <main id="main-content">
-    {{ content }}
-  </main>
+  {{ content }}
   
   <!-- Toast notification for copy feedback -->
-  <div id="toast" class="toast" role="alert" aria-live="polite" aria-atomic="true"></div>
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
   
-  <!-- Main Design JS -->
-  <script>
-    // Pass Jekyll config to JavaScript
-    window.CROSSHAIR_ANIMATION_ENABLED = {{ site.crosshair_animation | default: true }};
-  </script>
-  <script src="{{ site.baseurl }}/assets/js/alternative.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
 </body>
 </html>
 
